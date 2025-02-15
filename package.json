@@ -1,0 +1,23 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "simple crud api",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PrianiKate/crud-api.git"
+  },
+  "keywords": [
+    "crud-api",
+    "nodejs"
+  ],
+  "author": "PrianiKate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrianiKate/crud-api/issues"
+  },
+  "homepage": "https://github.com/PrianiKate/crud-api#readme"
+}
