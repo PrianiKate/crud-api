@@ -4,6 +4,7 @@
   "description": "simple crud api",
   "main": "index.ts",
   "scripts": {
+    "start:dev": "nodemon index.js",
     "test": "npm run test"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/PrianiKate/crud-api/issues"
   },
-  "homepage": "https://github.com/PrianiKate/crud-api#readme"
+  "homepage": "https://github.com/PrianiKate/crud-api#readme",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
