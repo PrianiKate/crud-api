@@ -1,1 +1,1 @@
-console.log('Hello, World!');
+export const sum = (a: number, b: number) => a + b;
