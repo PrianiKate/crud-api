@@ -4,7 +4,8 @@
   "description": "simple crud api",
   "main": "index.ts",
   "scripts": {
-    "start:dev": "nodemon index.js",
+    "start:dev": "npx nodemon",
+    "start:prod": "npx ts-node ./src/index.ts",
     "test": "npm run test"
   },
   "repository": {
@@ -21,7 +22,10 @@
     "url": "https://github.com/PrianiKate/crud-api/issues"
   },
   "homepage": "https://github.com/PrianiKate/crud-api#readme",
-  "dependencies": {
-    "nodemon": "^3.1.9"
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
